@@ -1,16 +1,15 @@
-export const App = () => {
+import React from "react";
+
+import Flow from "./Flow";
+
+import "./styles.css";
+
+
+export default function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="App">
+      <Flow />
+
     </div>
   );
-};
+}
